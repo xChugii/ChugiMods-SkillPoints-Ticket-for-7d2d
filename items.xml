@@ -1,0 +1,33 @@
+<config>
+	<append xpath="/items">
+
+		<item name="1_SkillPoint">
+			<property name="Extends" value="treasureQuestMaster"/>
+			<property name="CustomIcon" value="cntBookPile14"/>
+			<property name="CustomIconTint" value="#0b1ae6"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="1_skillpoint"/>
+			</property>
+		</item>
+
+		<item name="10_SkillPoints">
+			<property name="Extends" value="treasureQuestMaster"/>
+			<property name="CustomIcon" value="cntBookPile14"/>
+			<property name="CustomIconTint" value="#21b7ed"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="10_skillpoints"/>
+			</property>
+		</item>
+
+		<item name="100_SkillPoints">
+			<property name="Extends" value="treasureQuestMaster"/>
+			<property name="CustomIcon" value="cntBookPile14"/>
+			<property name="CustomIconTint" value="#05f5d5"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="100_skillpoints"/>
+			</property>
+		</item>
+
+
+	</append>
+</config>
